@@ -43,7 +43,7 @@ solve(p*q == n, p**4 - q**3 == hint)
 ```
 ![image](pic1.jpg)
 
-Có được p, q rồi thì mình có thể tìm được ra  flag một cách dễ dàng:
+Có được p, q rồi thì mình có thể tìm ra được flag một cách dễ dàng:
 
 ```python
 from Crypto.Util.number import inverse, long_to_bytes
